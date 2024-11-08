@@ -3,18 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyle.css">
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous";></script>
     
     <title>Drum Kit</title>
 </head>
 <body>
-    <div>
-        <button class="w drum">w</button>
-        <button class="a drum">a</button>
-        <button class="s drum">s</button>
-        <button class="d drum">d</button>
-        <button class="j drum">j</button>
-        <button class="k drum">k</button>
-        <button class="l drum">l</button>
+
+    <div class="buttons-ui">
+        <button class="gas kr" data-audiourl="sounds/kick2.mp3">
+        <div class="symbol">W</div>
+        </button>
+        <button class="gas kr" data-audiourl="sounds/kick.mp3">
+        <div class="symbol">A</div>
+        </button>
+        <button class="gas kr"data-audiourl="sounds/highhat.mp3">
+        <div class="symbol">S</div>
+        </button>
+        <button class="gas kr" data-audiourl="sounds/highhat2.mp3">
+        <div class="symbol">D</div>
+        </button>
+        <button class="gas kr" data-audiourl="sounds/highhat3.mp3">
+        <div class="symbol">J</div>
+        </button>
+        <button class="gas kr">
+        <div class="symbol">K</div>
+        </button>
+        <button class="gas kr">
+        <div class="symbol">L</div>
+        </button>
     </div>
-</body>
-</html>
+    
+
